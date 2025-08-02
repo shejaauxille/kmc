@@ -1,0 +1,335 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title> Contacts</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+
+   <!-- CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+    <!--? Preloader Start -->
+    <div id="preloader-active">
+        <div class="preloader d-flex align-items-center justify-content-center">
+            <div class="preloader-inner position-relative">
+                <div class="preloader-circle"></div>
+                <div class="preloader-img pere-text">
+                    <img src="img/logo/loder.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader Start -->
+    <header>
+        <!--? Header Start -->
+        <div class="header-area">
+            <div class="main-header header-sticky">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <!-- Logo -->
+                        <div class="col-xl-2 col-lg-2 col-md-1">
+                            <div class="logo">
+                                <a href="index.html"><img src="img/logo/logo.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-10 col-lg-10 col-md-10">
+                            <div class="menu-main d-flex align-items-center justify-content-end">
+                                <!-- Main-menu -->
+                                <div class="main-menu f-right d-none d-lg-block">
+                                    <nav>
+                                        <ul id="navigation">
+                                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="about.html">About</a></li>
+                                            <li><a href="doctor.html">Doctors</a></li>
+                                        <li><a href="department.html">Services</a></li>
+                                        <li><a href="schedule.html">Schedule</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                          <div class="header-right-btn f-right d-none d-lg-block ml-30">
+                                <a href="contact.html" class="btn header-btn">Contact</a>
+                            </div>
+                            </div>
+                        </div>   
+                        <!-- Mobile Menu -->
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Header End -->
+    </header>
+    <main class="main">
+        <!--? Hero Start -->
+<!-- ================ contact section start ================= -->
+<style>
+    .contact-section {
+        background: url('img/gallery/popular_sub3.png') no-repeat center center/cover;
+        padding: 80px 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #fff;
+    }
+
+    .contact-box {
+        background: rgba(0, 0, 0, 0.35); /* More transparent */
+        backdrop-filter: blur(6px);
+        -webkit-backdrop-filter: blur(6px);
+        border-radius: 16px;
+        padding: 40px;
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+        color: #fff;
+        transition: transform 0.3s ease;
+        height: 100%;
+    }
+
+    .contact-box:hover {
+        transform: translateY(-5px);
+    }
+
+    .contact-heading {
+        font-size: 32px;
+        font-weight: 700;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .contact-info {
+        font-size: 16px;
+        margin-bottom: 8px;
+        color: #eeeeee;
+        text-align: center;
+    }
+
+    .form-group label {
+        font-weight: 600;
+        color: #eeeeee;
+    }
+
+    .form-control {
+        border-radius: 10px;
+        border: none;
+        padding: 12px;
+        background: rgba(255, 255, 255, 0.08); /* More transparent */
+        color: #ffffff;
+        width: 100%;
+    }
+
+    .form-control::placeholder {
+        color: #ccc;
+    }
+
+    .form-control:focus {
+        background: rgba(255, 255, 255, 0.12);
+        border: 1px solid #00b4d8;
+        box-shadow: 0 0 0 0.2rem rgba(0, 180, 216, 0.2);
+        color: #ffffff;
+        outline: none;
+    }
+
+    .btn-submit {
+        background-color: #00b4d8;
+        color: white;
+        padding: 12px 28px;
+        border: none;
+        border-radius: 8px;
+        font-weight: bold;
+        width: 100%;
+        margin-top: 20px;
+        transition: background-color 0.3s;
+    }
+
+    .btn-submit:hover {
+        background-color: #0077a2;
+    }
+
+    .map-container {
+        background: rgba(0, 0, 0, 0.25); /* More transparent */
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+        border-radius: 16px;
+        overflow: hidden;
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+        height: 100%;
+        min-height: 500px;
+        padding: 10px;
+    }
+
+    .map-container iframe {
+        width: 100%;
+        height: 100%;
+        border: 0;
+        border-radius: 12px;
+        opacity: 0.85; /* more see-through */
+        filter: grayscale(20%) brightness(85%);
+    }
+
+    @media (max-width: 991px) {
+        .map-container {
+            margin-top: 30px;
+            min-height: 400px;
+        }
+    }
+
+    @media (max-width: 767px) {
+        .contact-box {
+            padding: 30px 20px;
+        }
+    }
+</style>
+
+<div class="container contact-section">
+    <div class="row align-items-stretch">
+        <!-- Contact Form -->
+        <div class="col-lg-6 col-md-12">
+            <div class="contact-box">
+                <div class="contact-heading">Contact Kigali Medical Center</div>
+                <div class="contact-info">📍 KN 4 Ave, Kigali, Rwanda</div>
+                <div class="contact-info">📞 +250 788 123 456</div>
+                <div class="contact-info">✉️ info@kmc.rw</div>
+
+                <form class="mt-4">
+                    <div class="form-group mb-3">
+                        <label for="name">Full Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your name" required>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="email">Email Address</label>
+                        <input type="email" class="form-control" id="email" placeholder="you@example.com" required>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="message">Your Message</label>
+                        <textarea class="form-control" id="message" rows="5" placeholder="Type your message here..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Google Map -->
+        <div class="col-lg-6 col-md-12">
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.142278086513!2d30.117876!3d-1.940796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca71607cd8219%3A0xe837d33c81c2dcb1!2sKigali%20Medical%20Center%20(%20Kmc)!5e0!3m2!1sen!2srw!4v1721642713890!5m2!1sen!2srw"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ================ contact section end ================= -->
+
+
+    </main>
+    <footer>
+   <!--? Footer Start-->
+        <div class="footer-area section-bg" data-background="img/gallery/footer_bg.jpg">
+            <div class="container">
+                <div class="footer-top footer-padding">
+                    <div class="row d-flex justify-content-between">
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-8">
+                            <div class="single-footer-caption mb-50">
+                                <!-- logo -->
+                                <div class="footer-logo">
+                                    <a href="index.html"><img src="img/logo/logo2_footer.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-5">
+                            <div class="single-footer-caption mb-50">
+                                <div class="footer-tittle">
+                                    <h4>About Us</h4>
+                                    <div class="footer-pera">
+                                        <p class="info1">Gasabo, Kimironko opposite Kimironko car bus station. </p>
+                                        <p class="info1">Kigali Medical Center offers medical consultation in General Medicine, Pediatrics, Dermatology,…</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-8">
+                            <div class="single-footer-caption mb-50">
+                                <div class="footer-number mb-50">
+                                    <h4><span>+250 </span>780 864 534</h4>
+                                    <p>kmcpolyclinic@yahoo.com</p>
+                                </div>
+                                <!-- Form -->
+      
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="row d-flex justify-content-between align-items-center">
+                        <div class="col-xl-9 col-lg-8">
+                            <div class="footer-copy-right">
+                                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved by KMC <br> site by <a href="https://shejakalisaauxille.vercel.app/" target="_blank">SHEJA KALISA Auxille</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4">
+                            <!-- Footer Social -->
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End-->
+    </footer>
+    <!-- Scroll Up -->
+    <div id="back-top" >
+        <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
+    </div>
+
+    <!-- JS here -->
+
+    <script src="./js/vendor/modernizr-3.5.0.min.js"></script>
+    <!-- Jquery, Popper, Bootstrap -->
+    <script src="./js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <!-- Jquery Mobile Menu -->
+    <script src="./js/jquery.slicknav.min.js"></script>
+
+    <!-- Jquery Slick , Owl-Carousel Plugins -->
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <!-- One Page, Animated-HeadLin -->
+    <script src="./js/wow.min.js"></script>
+    <script src="./js/animated.headline.js"></script>
+    
+    <!-- Nice-select, sticky -->
+    <script src="./js/jquery.nice-select.min.js"></script>
+    <script src="./js/jquery.sticky.js"></script>
+    <script src="./js/jquery.magnific-popup.js"></script>
+
+    <!-- contact js -->
+    <script src="./js/contact.js"></script>
+    <script src="./js/jquery.form.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/mail-script.js"></script>
+    <script src="./js/jquery.ajaxchimp.min.js"></script>
+    
+    <!-- Jquery Plugins, main Jquery -->	
+    <script src="./js/plugins.js"></script>
+    <script src="./js/main.js"></script>
+
+    </body>
+</html>
